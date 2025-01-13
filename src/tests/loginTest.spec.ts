@@ -2,6 +2,7 @@ import { test } from '@playwright/test'
 import LoginPage from '../pages/LoginPage'
 import { encrypt, decrypt } from '../utils/CryptoJsUtil';
 import { encryptEnvFile, decryptEnvFile } from '../utils/EncryptEnvFile'
+import logger from '../utils/LoggerUtil'
 
 test('Login test', async ({ page }) => {
 
@@ -15,6 +16,7 @@ test('Login test', async ({ page }) => {
     await homePage.clickAppLauncher()
     await homePage.clickServiceOption()
     await homePage.expectServiceTitleToBeVisible();
+    logger.info(`Test for login is completed!`)
 })
 
 test.skip('Sample env test', async ({ page }) => {
@@ -22,6 +24,8 @@ test.skip('Sample env test', async ({ page }) => {
     console.log(process.env.NODE_ENV);
     console.log(process.env.userid);
     console.log(process.env.password);
+
+    logger.info(`Env variables setup is completed!`)
 })
 
 test.skip('Encryption and Decryption test', async ({ page }) => {
@@ -36,11 +40,15 @@ test.skip('Encryption and Decryption test', async ({ page }) => {
 
     console.log('Decrypted: ', decryptedText)
 
+    logger.info(`Encryption and Decryption of text is completed!`)
+
 })
 
 test.skip('Encryption and Decryption of .env file', async ({ page }) => {
 
     encryptEnvFile();
     // decryptEnvFile();
+
+    logger.info(`Encryption and Decryption of .env file is completed!`)
 
 })

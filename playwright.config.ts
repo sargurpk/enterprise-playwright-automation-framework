@@ -40,6 +40,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on',
+    screenshot: 'on',
   },
 
   /* Configure projects for major browsers */
@@ -79,6 +80,8 @@ export default defineConfig({
     //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     // },
   ],
+
+  timeout: 60000,
 
   /* Run your local dev server before starting the tests */
   // webServer: {
