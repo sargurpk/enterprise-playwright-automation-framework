@@ -4,7 +4,7 @@ import { encrypt, decrypt } from '../utils/CryptoJsUtil';
 import { encryptEnvFile, decryptEnvFile } from '../utils/EncryptEnvFile'
 import logger from '../utils/LoggerUtil'
 
-test('Login test', async ({ page }) => {
+test.only('Login test', async ({ page }) => {
 
     const loginPage = new LoginPage(page);
 

@@ -4,6 +4,7 @@ import LoginPage from '../pages/LoginPage';
 import { decrypt } from '../utils/CryptoJsUtil';
 import contactData from '../testData/contacts.json'
 import { converCsvFileToJsonFile } from '../utils/CsvToJsonUtil';
+import { demoOutput, generateTestData, exportToCSV, exportToJson } from '../utils/FakerDataUtil'
 
 for (const cData of contactData) {
     test.skip(`New Contacts creation test for ${cData.firstName} ${cData.lastName}`, async ({ page }) => {
@@ -27,10 +28,20 @@ for (const cData of contactData) {
         await contactPage.createNewContact(cData.firstName, cData.lastName);
         await contactPage.expectConactLabelContainsFirstandLastName(cData.firstName, cData.lastName);
 
-        logger.info(`Test for login is completed!`)
+        logger.info(`Test for login is completed!`);
     })
 }
 
-test('', async () => {
-    converCsvFileToJsonFile('data.csv', 'dataDemo.json')
-})
+test('Convert CSV to JSON', async () => {
+    converCsvFileToJsonFile('data.csv', 'dataDemo.json');
+});
+
+test('Faker Data Demo 1', async () => {
+    console.log(demoOutput);
+});
+
+test.only('Multiple Faker Data creation', async () => {
+    const testData = generateTestData(15);
+    exportToJson(testData, 'testData_en.json');
+    exportToCSV(testData, 'testData_en.csv');
+});
