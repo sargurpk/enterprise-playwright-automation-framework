@@ -40,7 +40,7 @@ test('Faker Data Demo 1', async () => {
     console.log(demoOutput);
 });
 
-test.only('Multiple Faker Data creation', async () => {
+test('Multiple Faker Data creation', async () => {
     const testData = generateTestData(15);
     exportToJson(testData, 'testData_en.json');
     exportToCSV(testData, 'testData_en.csv');
