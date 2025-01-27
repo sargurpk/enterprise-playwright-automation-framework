@@ -5,3 +5,4 @@ node_modules/
 /playwright/.cache/
 /src/logging/test_error.log
 /src/logging/test_run.log
+/src/config/auth.json

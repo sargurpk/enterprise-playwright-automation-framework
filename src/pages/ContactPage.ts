@@ -9,12 +9,14 @@ export default class ContactPage {
     private readonly lastNameTextField = 'Last Name';
     private readonly saveButton = '[name="SaveEdit"]';
     private readonly contactName = '[name="primaryField"]'
+    private readonly searchBox = 'Search...'
 
     constructor(private page: Page) {
 
     }
 
     async createNewContact(firstName: string, lastName: string) {
+        await this.page.getByTitle(this.contactsLink).click();
         await this.page.getByRole('button', { name: this.newButton }).click();
         logger.info(`Clicked on New button in Contacts page`);
 
@@ -35,6 +37,14 @@ export default class ContactPage {
     async expectConactLabelContainsFirstandLastName(firstName: string, lastName: string) {
         await expect(this.page.locator(this.contactName)).toContainText(`${firstName} ${lastName}`);
         logger.info(`New contact has been created and ${firstName} ${lastName} is visible`);
-        await this.page.getByRole('link', { name: this.contactsLink }).click();
+        // await this.page.getByRole('link', { name: this.contactsLink }).click();
+    }
+
+    async findExistingContactByLastName(lastName: string) {
+        await this.page.getByTitle(this.contactsLink).first().click();
+        await this.page.getByRole("button", { name: this.searchBox }).click()
+        await this.page.getByRole("button", { name: this.searchBox }).fill(lastName)
+        await this.page.getByRole("button", { name: this.searchBox }).press("Enter")
+        await this.page.getByRole("link", { name: lastName })
     }
 }

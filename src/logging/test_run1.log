@@ -1,0 +1,173 @@
+2025-01-26T13:52:01+05:30 [info]: Username is filled
+2025-01-26T13:52:02+05:30 [info]: Password is entered
+2025-01-26T13:52:03+05:30 [info]: Clicked on Login button
+2025-01-26T13:53:03+05:30 [info]: Navigated to the Login page
+2025-01-26T13:53:04+05:30 [info]: Username is filled
+2025-01-26T13:53:05+05:30 [info]: Password is entered
+2025-01-26T13:53:06+05:30 [info]: Clicked on Login button
+2025-01-26T13:56:38+05:30 [info]: Navigated to the Login page
+2025-01-26T13:56:39+05:30 [info]: Username is filled
+2025-01-26T13:56:39+05:30 [info]: Password is entered
+2025-01-26T13:56:40+05:30 [info]: Clicked on Login button
+2025-01-26T13:59:17+05:30 [info]: Navigated to the Login page
+2025-01-26T13:59:18+05:30 [info]: Username is filled
+2025-01-26T13:59:18+05:30 [info]: Password is entered
+2025-01-26T13:59:23+05:30 [info]: Clicked on Login button
+2025-01-26T13:59:31+05:30 [info]: Clicked on App Launcher
+2025-01-26T13:59:33+05:30 [info]: Clicked on Service option in App Launcher
+2025-01-26T13:59:33+05:30 [info]: Service title is visible
+2025-01-26T13:59:33+05:30 [info]: Test for login is completed!
+2025-01-27T23:16:38+05:30 [info]: Clicked on Login button
+2025-01-27T23:16:58+05:30 [error]: Error clicking on the login button: Error: [31mTimed out 20000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 20000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T23:17:12+05:30 [info]: Clicked on Login button
+2025-01-27T23:17:29+05:30 [error]: Error clicking on the login button: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 20000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2025-01-27T23:17:55+05:30 [info]: Clicked on Login button
+2025-01-27T23:18:02+05:30 [info]: Service title is visible
+2025-01-27T23:19:17+05:30 [info]: Clicked on Login button
+2025-01-27T23:19:24+05:30 [info]: Service title is visible
+2025-01-27T23:19:43+05:30 [info]: Clicked on Login button
+2025-01-27T23:19:51+05:30 [info]: Service title is visible
+2025-01-27T23:19:51+05:30 [info]: Clicked on App Launcher
+2025-01-27T23:19:53+05:30 [info]: Clicked on Service option in App Launcher
+2025-01-27T23:19:53+05:30 [info]: Service title is visible
+2025-01-27T23:19:53+05:30 [info]: Test for login is completed!
+2025-01-27T23:21:08+05:30 [info]: Clicked on Login button
+2025-01-27T23:21:09+05:30 [error]: Error clicking on the login button: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 20000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+[2m    - waiting for" https://abcorg65-dev-ed.develop.my.salesforce.com/lightning/setup/SetupOneHome/home" navigation to finish...[22m
+
+2025-01-27T23:22:32+05:30 [info]: Clicked on Login button
+2025-01-27T23:22:39+05:30 [info]: Service title is visible
+2025-01-27T23:22:39+05:30 [info]: Clicked on App Launcher
+2025-01-27T23:22:41+05:30 [info]: Clicked on Service option in App Launcher
+2025-01-27T23:22:41+05:30 [info]: Service title is visible
+2025-01-27T23:22:41+05:30 [info]: Test for login is completed!
+2025-01-27T23:22:47+05:30 [info]: Clicked on New button in Contacts page
+2025-01-27T23:23:44+05:30 [info]: First name is filled as demo1
+2025-01-27T23:23:44+05:30 [info]: First name is filled as demo2
+2025-01-27T23:23:45+05:30 [info]: Save button is clicked
+2025-01-27T23:23:47+05:30 [info]: New contact has been created and demo1 demo2 is visible
+2025-01-27T23:23:57+05:30 [info]: Clicked on Login button
+2025-01-27T23:24:04+05:30 [info]: Service title is visible
+2025-01-27T23:24:05+05:30 [info]: Clicked on App Launcher
+2025-01-27T23:24:06+05:30 [info]: Clicked on Service option in App Launcher
+2025-01-27T23:24:06+05:30 [info]: Service title is visible
+2025-01-27T23:24:06+05:30 [info]: Test for login is completed!
+2025-01-27T23:24:14+05:30 [info]: Clicked on New button in Contacts page
+2025-01-27T23:24:16+05:30 [info]: First name is filled as demo1
+2025-01-27T23:24:17+05:30 [info]: First name is filled as demo2
+2025-01-27T23:24:17+05:30 [info]: Save button is clicked
+2025-01-27T23:24:20+05:30 [info]: New contact has been created and demo1 demo2 is visible
+2025-01-27T23:24:35+05:30 [info]: Clicked on Login button
+2025-01-27T23:24:42+05:30 [info]: Service title is visible
+2025-01-27T23:24:43+05:30 [info]: Clicked on App Launcher
+2025-01-27T23:24:44+05:30 [info]: Clicked on Service option in App Launcher
+2025-01-27T23:24:45+05:30 [info]: Service title is visible
+2025-01-27T23:24:45+05:30 [info]: Test for login is completed!
+2025-01-27T23:24:53+05:30 [info]: Clicked on New button in Contacts page
+2025-01-27T23:24:56+05:30 [info]: First name is filled as demo1
+2025-01-27T23:24:56+05:30 [info]: First name is filled as demo2
+2025-01-27T23:24:56+05:30 [info]: Save button is clicked
+2025-01-27T23:24:59+05:30 [info]: New contact has been created and demo1 demo2 is visible
+2025-01-27T23:27:44+05:30 [info]: Clicked on Login button
+2025-01-27T23:27:51+05:30 [info]: Service title is visible
+2025-01-27T23:27:51+05:30 [info]: Clicked on App Launcher
+2025-01-27T23:27:52+05:30 [info]: Clicked on Service option in App Launcher
+2025-01-27T23:27:53+05:30 [info]: Service title is visible
+2025-01-27T23:27:53+05:30 [info]: Test for login is completed!
+2025-01-27T23:27:58+05:30 [info]: Clicked on New button in Contacts page
+2025-01-27T23:28:01+05:30 [info]: First name is filled as demo1
+2025-01-27T23:28:02+05:30 [info]: First name is filled as demo2
+2025-01-27T23:28:03+05:30 [info]: Save button is clicked
+2025-01-27T23:28:06+05:30 [info]: New contact has been created and demo1 demo2 is visible
+2025-01-27T23:28:22+05:30 [info]: Clicked on Login button
+2025-01-27T23:28:30+05:30 [info]: Service title is visible
+2025-01-27T23:28:30+05:30 [info]: Clicked on App Launcher
+2025-01-27T23:28:31+05:30 [info]: Clicked on Service option in App Launcher
+2025-01-27T23:28:32+05:30 [info]: Service title is visible
+2025-01-27T23:28:32+05:30 [info]: Test for login is completed!
+2025-01-27T23:28:39+05:30 [info]: Clicked on New button in Contacts page
+2025-01-27T23:28:43+05:30 [info]: First name is filled as demo1
+2025-01-27T23:28:46+05:30 [info]: First name is filled as demo2
+2025-01-27T23:28:47+05:30 [info]: Save button is clicked
+2025-01-27T23:28:50+05:30 [info]: New contact has been created and demo1 demo2 is visible
+2025-01-27T23:29:09+05:30 [info]: Clicked on Login button
+2025-01-27T23:29:18+05:30 [info]: Service title is visible
+2025-01-27T23:29:19+05:30 [info]: Clicked on App Launcher
+2025-01-27T23:29:22+05:30 [info]: Clicked on Service option in App Launcher
+2025-01-27T23:29:22+05:30 [info]: Service title is visible
+2025-01-27T23:29:22+05:30 [info]: Test for login is completed!
+2025-01-27T23:29:29+05:30 [info]: Clicked on New button in Contacts page
+2025-01-27T23:29:33+05:30 [info]: First name is filled as demo1
+2025-01-27T23:29:33+05:30 [info]: First name is filled as demo2
+2025-01-27T23:29:35+05:30 [info]: Save button is clicked
+2025-01-27T23:29:37+05:30 [info]: New contact has been created and demo1 demo2 is visible
+2025-01-27T23:36:47+05:30 [info]: Clicked on Login button
+2025-01-27T23:36:55+05:30 [info]: Service title is visible
+2025-01-27T23:36:56+05:30 [info]: Clicked on App Launcher
+2025-01-27T23:36:57+05:30 [info]: Clicked on Service option in App Launcher
+2025-01-27T23:36:57+05:30 [info]: Service title is visible
+2025-01-27T23:36:57+05:30 [info]: Test for login is completed!
+2025-01-27T23:37:03+05:30 [info]: Clicked on New button in Contacts page
+2025-01-27T23:37:07+05:30 [info]: First name is filled as demo1
+2025-01-27T23:37:08+05:30 [info]: First name is filled as demo2
+2025-01-27T23:37:09+05:30 [info]: Save button is clicked
+2025-01-27T23:37:11+05:30 [info]: New contact has been created and demo1 demo2 is visible
+2025-01-27T23:38:11+05:30 [info]: Clicked on Login button
+2025-01-27T23:38:13+05:30 [error]: Error clicking on the login button: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 20000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+[2m    - waiting for" https://abcorg65-dev-ed.develop.my.salesforce.com/lightning/setup/SetupOneHome/home" navigation to finish...[22m
+
+2025-01-27T23:38:45+05:30 [info]: Clicked on Login button
+2025-01-27T23:38:52+05:30 [info]: Service title is visible
+2025-01-27T23:38:54+05:30 [info]: Clicked on App Launcher
+2025-01-27T23:38:55+05:30 [info]: Clicked on Service option in App Launcher
+2025-01-27T23:38:55+05:30 [info]: Service title is visible
+2025-01-27T23:38:55+05:30 [info]: Test for login is completed!
+2025-01-27T23:39:01+05:30 [info]: Clicked on New button in Contacts page
+2025-01-27T23:39:04+05:30 [info]: First name is filled as demo1
+2025-01-27T23:39:04+05:30 [info]: First name is filled as demo2
+2025-01-27T23:39:06+05:30 [info]: Save button is clicked
+2025-01-27T23:39:08+05:30 [info]: New contact has been created and demo1 demo2 is visible
+2025-01-27T23:40:23+05:30 [info]: Clicked on Login button
+2025-01-27T23:40:26+05:30 [error]: Error clicking on the login button: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 20000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+[2m    - waiting for" https://abcorg65-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home" navigation to finish...[22m
+[2m    - navigated to "https://abcorg65-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home"[22m
+
+2025-01-27T23:40:49+05:30 [info]: Clicked on Login button
+2025-01-27T23:40:56+05:30 [info]: Service title is visible

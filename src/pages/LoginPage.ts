@@ -4,7 +4,7 @@ import logger from '../utils/LoggerUtil';
 
 export default class LoginPage {
 
-    private readonly usernameInput = '#username2';
+    private readonly usernameInput = '#username';
     private readonly passwordInput = '#password';
     private readonly loginButton = '#Login';
 
@@ -39,6 +39,12 @@ export default class LoginPage {
             logger.info(`Clicked on Login button`);
             const homePage = new HomePage(this.page)
             return homePage;
+    }
 
+    async quickLogin(username: string, password: string) {
+        await this.page.goto("/");
+        await this.page.locator(this.usernameInput).fill(username);
+        await this.page.locator(this.passwordInput).fill(password);
+        return await this.clickLoginButton()
     }
 }
